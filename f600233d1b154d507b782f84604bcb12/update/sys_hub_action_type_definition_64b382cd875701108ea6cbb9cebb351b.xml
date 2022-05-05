@@ -14,7 +14,7 @@
         <description>Gather the required information to be used for generating a document for a given Acquisition Package.</description>
         <ih_action>false</ih_action>
         <internal_name>atat_gather_acquisition_package_data</internal_name>
-        <label_cache>[{"name":"{{action.acquisition_package}}","label":"action➛Acquisition Package","type":"action","ref":"","reference_display":"Acquisition Package","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].variable}}","label":"step➛Gather Data into Object➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].name}}","label":"step➛Gather Data into Object➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].number}}","label":"step➛Gather Data into Object➛number","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].payload}}","label":"step➛Gather Data into Object➛payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].base_period}}","label":"step➛Gather Data into Object➛base period","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.acquisition_package}}","label":"action➛Acquisition Package","type":"action","ref":"","reference_display":"Acquisition Package","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].variable}}","label":"step➛Gather Data into Object➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].name}}","label":"step➛Gather Data into Object➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].number}}","label":"step➛Gather Data into Object➛number","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].payload}}","label":"step➛Gather Data into Object➛payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].base_period}}","label":"step➛Gather Data into Object➛base period","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].acq_number}}","label":"step➛Gather Data into Object➛Acq. Number","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].acq_status}}","label":"step➛Gather Data into Object➛Acq. Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].pro}}","label":"step➛Gather Data into Object➛Pro","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].job_status}}","label":"step➛Gather Data into Object➛Job Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].job_type}}","label":"step➛Gather Data into Object➛Job Type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>ATAT Gather Acquisition Package Data</name>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64b382cd875701108ea6cbb9cebb351b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>ATAT Gather Acquisition Package Data</sys_name>
         <sys_overrides/>
         <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
@@ -36,13 +36,65 @@
         <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_64b382cd875701108ea6cbb9cebb351b</sys_update_name>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-04 23:03:24</sys_updated_on>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=64b382cd875701108ea6cbb9cebb351b"/>
     <sys_variable_value action="delete_multiple" query="document_key=64b382cd875701108ea6cbb9cebb351b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>64b382cd875701108ea6cbb9cebb351b</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>53c216191b1b0110d12a55f0604bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD0fc21619411b0110fa324135d7f39383":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0fc21619411b0110fa324135d7f39383.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":null,\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"629d884e-8616-46e7-bc03-cd41cb80e983\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0fc21619411b0110fa324135d7f39383\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"5\",\"max_length\":\"-1\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">0bc216191b1b0110d12a55f0604bcb8c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>64b382cd875701108ea6cbb9cebb351b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>9fc216191b1b0110d12a55f0604bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">4bc216191b1b0110d12a55f0604bcb92</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=64b382cd875701108ea6cbb9cebb351b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>acq_number</field>
+        <id>64b382cd875701108ea6cbb9cebb351b</id>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>13c216191b1b0110d12a55f0604bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</table>
+        <value>{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].acq_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>acq_status</field>
+        <id>64b382cd875701108ea6cbb9cebb351b</id>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>1fc216191b1b0110d12a55f0604bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</table>
+        <value>{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].acq_status}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>base_period</field>
         <id>64b382cd875701108ea6cbb9cebb351b</id>
@@ -54,6 +106,30 @@
         <sys_updated_on>2022-05-04 23:03:24</sys_updated_on>
         <table>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</table>
         <value>{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].base_period}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_status</field>
+        <id>64b382cd875701108ea6cbb9cebb351b</id>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>d3c216191b1b0110d12a55f0604bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</table>
+        <value>{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].job_status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_type</field>
+        <id>64b382cd875701108ea6cbb9cebb351b</id>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>5fc216191b1b0110d12a55f0604bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</table>
+        <value>{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].job_type}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>name</field>
@@ -91,6 +167,30 @@
         <table>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</table>
         <value>{{step[f790e9a6-4a7c-43b9-9900-0340b9a4bb05].payload}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>64b382cd875701108ea6cbb9cebb351b</id>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>5bc216191b1b0110d12a55f0604bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>64b382cd875701108ea6cbb9cebb351b</id>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>97c216191b1b0110d12a55f0604bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=64b382cd875701108ea6cbb9cebb351b^sys_idNOT IN472c128187d701108ea6cbb9cebb35fa"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="ATAT Gather Acquisition Package Data">64b382cd875701108ea6cbb9cebb351b</action>
@@ -109,10 +209,10 @@
         <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
         <sys_created_on>2022-05-04 23:03:23</sys_created_on>
         <sys_id>472c128187d701108ea6cbb9cebb35fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-04 23:03:23</sys_updated_on>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=472c128187d701108ea6cbb9cebb35fa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -123,9 +223,9 @@
         <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
         <sys_created_on>2022-05-04 23:03:23</sys_created_on>
         <sys_id>532c528187d701108ea6cbb9cebb353d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-04 23:03:23</sys_updated_on>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   // dot walk from the given package to get values
   var package = inputs.package;
@@ -135,7 +235,21 @@
   var unit = package.period_of_performance.base_period.period_unit.toString();
   var basePeriod = base + ' ' + unit;
   outputs.base_period =  basePeriod
-    
+  
+  // using Database View
+  var dbView = new GlideRecord('x_g_dis_atat_acquisition_package_provisioning_jobs')
+  dbView.query('acqpkg_sys_id', package.sys_id)
+  dbView.next()
+  gs.info('Acq. Number: ' + dbView.acqpkg_number)
+  gs.info('Acq. Status: ' + dbView.acqpkg_status)
+  gs.info('ProvisiongJob Status: ' + dbView.projob_status)
+  gs.info('ProvisiongJob Type: ' + dbView.projob_job_type)
+  
+  outputs.acq_number = dbView.acqpkg_number.toString()
+  outputs.acq_status = dbView.acqpkg_status.getDisplayValue().toString()
+  outputs.job_status = dbView.projob_status.getDisplayValue().toString()
+  outputs.job_type = dbView.projob_job_type.getDisplayValue().toString()
+  
   
   // build JSON string for output
   try {
@@ -148,6 +262,16 @@
       .writeString(package.number)
       .writeFieldName("Base Period")
       .writeString(basePeriod)
+      .writeFieldName("Spacer")
+      .writeString("--------------Database View Data----------")
+      .writeFieldName("Acq Number")
+      .writeString(outputs.acq_number)
+      .writeFieldName("Acq Status")
+      .writeString(outputs.acq_status)
+      .writeFieldName("Job Status")
+      .writeString(outputs.job_status)
+      .writeFieldName("Job Type")
+      .writeString(outputs.job_type)
       .endObject();
   	outputs.payload = jsonBuilder.getJSONString();
   } catch (error) {
@@ -176,18 +300,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=472c128187d701108ea6cbb9cebb35fa"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>472c128187d701108ea6cbb9cebb35fa</id>
-        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
-        <sys_created_on>2022-05-04 23:03:23</sys_created_on>
-        <sys_id>132c528187d701108ea6cbb9cebb353c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-04 23:03:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>package</field>
         <id>472c128187d701108ea6cbb9cebb35fa</id>
         <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
@@ -203,11 +315,11 @@
         <field>script</field>
         <id>472c128187d701108ea6cbb9cebb35fa</id>
         <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
-        <sys_created_on>2022-05-04 23:03:23</sys_created_on>
-        <sys_id>d72c528187d701108ea6cbb9cebb353c</sys_id>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>cfc216191b1b0110d12a55f0604bcb7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-04 23:03:23</sys_updated_on>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -218,7 +330,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=Record</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -276,14 +388,14 @@
         <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
         <sys_created_on>2022-05-04 23:03:23</sys_created_on>
         <sys_id>432c528187d701108ea6cbb9cebb3502</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
         <sys_update_name/>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-04 23:03:23</sys_updated_on>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -295,7 +407,88 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=472c128187d701108ea6cbb9cebb35fa^sys_idNOT IN0f2c528187d701108ea6cbb9cebb3526,4b2c528187d701108ea6cbb9cebb350e,8f2c528187d701108ea6cbb9cebb3507,8f2c528187d701108ea6cbb9cebb3520"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=472c128187d701108ea6cbb9cebb35fa^sys_idNOT IN0bc216191b1b0110d12a55f0604bcb74,0f2c528187d701108ea6cbb9cebb3526,0fc216191b1b0110d12a55f0604bcb68,4b2c528187d701108ea6cbb9cebb350e,4fc216191b1b0110d12a55f0604bcb62,8bc216191b1b0110d12a55f0604bcb6e,8f2c528187d701108ea6cbb9cebb3507,8f2c528187d701108ea6cbb9cebb3520"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=07a44fbd-020a-462e-84a4-57c488d27e8a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>job_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Job Type</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Gather Data into Object">472c128187d701108ea6cbb9cebb35fa</model>
+        <model_id>472c128187d701108ea6cbb9cebb35fa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>0bc216191b1b0110d12a55f0604bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -381,6 +574,87 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e776b2ef-b333-4d6f-a125-7973f4614dc8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>acq_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Acq. Status</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Gather Data into Object">472c128187d701108ea6cbb9cebb35fa</model>
+        <model_id>472c128187d701108ea6cbb9cebb35fa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>0fc216191b1b0110d12a55f0604bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4ad7e802-f0ed-4517-bace-fb44a11ab63d</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -447,6 +721,168 @@
         <sys_update_name/>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
         <sys_updated_on>2022-05-04 23:03:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4a839f2d-98dd-4e8d-b4c6-74b3500f347b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>acq_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Acq. Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Gather Data into Object">472c128187d701108ea6cbb9cebb35fa</model>
+        <model_id>472c128187d701108ea6cbb9cebb35fa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>4fc216191b1b0110d12a55f0604bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e4eb141a-323e-4394-a9d2-1b47e155f956</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>job_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Job Status</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Gather Data into Object">472c128187d701108ea6cbb9cebb35fa</model>
+        <model_id>472c128187d701108ea6cbb9cebb35fa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>8bc216191b1b0110d12a55f0604bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -620,7 +1056,30 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa^sys_idNOT IN4b2c528187d701108ea6cbb9cebb3525,872c528187d701108ea6cbb9cebb350d,9f2c528187d701108ea6cbb9cebb3537,cb2c528187d701108ea6cbb9cebb351f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa^sys_idNOT IN47c216191b1b0110d12a55f0604bcb73,4b2c528187d701108ea6cbb9cebb3525,4bc216191b1b0110d12a55f0604bcb67,872c528187d701108ea6cbb9cebb350d,9f2c528187d701108ea6cbb9cebb3537,c3c216191b1b0110d12a55f0604bcb79,c7c216191b1b0110d12a55f0604bcb6d,cb2c528187d701108ea6cbb9cebb351f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>job_status</element>
+        <help/>
+        <hint/>
+        <label>Job Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>47c216191b1b0110d12a55f0604bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>payload</element>
         <help/>
@@ -641,6 +1100,29 @@
         <sys_update_name/>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
         <sys_updated_on>2022-05-04 23:03:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>acq_number</element>
+        <help/>
+        <hint/>
+        <label>Acq. Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>4bc216191b1b0110d12a55f0604bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -687,6 +1169,52 @@
         <sys_update_name/>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
         <sys_updated_on>2022-05-04 23:03:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>job_type</element>
+        <help/>
+        <hint/>
+        <label>Job Type</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>c3c216191b1b0110d12a55f0604bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>acq_status</element>
+        <help/>
+        <hint/>
+        <label>Acq. Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_472c128187d701108ea6cbb9cebb35fa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>c7c216191b1b0110d12a55f0604bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -795,7 +1323,90 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_output action="delete_multiple" query="model=64b382cd875701108ea6cbb9cebb351b^sys_idNOT IN172c528187d701108ea6cbb9cebb3544,172c528187d701108ea6cbb9cebb3557,532c528187d701108ea6cbb9cebb354b,532c528187d701108ea6cbb9cebb3551"/>
+    <sys_hub_action_output action="delete_multiple" query="model=64b382cd875701108ea6cbb9cebb351b^sys_idNOT IN0bc216191b1b0110d12a55f0604bcb8c,172c528187d701108ea6cbb9cebb3544,172c528187d701108ea6cbb9cebb3557,43c216191b1b0110d12a55f0604bcb9c,43c216191b1b0110d12a55f0604bcba2,43c216191b1b0110d12a55f0604bcba8,43c216191b1b0110d12a55f0604bcbae,4bc216191b1b0110d12a55f0604bcb92,532c528187d701108ea6cbb9cebb354b,532c528187d701108ea6cbb9cebb3551"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD0fc21619411b0110fa324135d7f39383,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=629d884e-8616-46e7-bc03-cd41cb80e983</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="ATAT Gather Acquisition Package Data">64b382cd875701108ea6cbb9cebb351b</model>
+        <model_id>64b382cd875701108ea6cbb9cebb351b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>0bc216191b1b0110d12a55f0604bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -951,6 +1562,421 @@
         <sys_update_name/>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
         <sys_updated_on>2022-05-04 23:03:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=cdd5b10c-67fc-431f-8b9f-0efa31a21cd0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>acq_number</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Acq Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ATAT Gather Acquisition Package Data">64b382cd875701108ea6cbb9cebb351b</model>
+        <model_id>64b382cd875701108ea6cbb9cebb351b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>43c216191b1b0110d12a55f0604bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=f119c3c7-72f7-4984-9f27-e027a52379af</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>acq_status</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Acq Status</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ATAT Gather Acquisition Package Data">64b382cd875701108ea6cbb9cebb351b</model>
+        <model_id>64b382cd875701108ea6cbb9cebb351b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>43c216191b1b0110d12a55f0604bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=532a88e3-11e7-4fc8-a0f3-84b1405ac517</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>job_status</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Job Status</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ATAT Gather Acquisition Package Data">64b382cd875701108ea6cbb9cebb351b</model>
+        <model_id>64b382cd875701108ea6cbb9cebb351b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <next_element/>
+        <order>9</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>43c216191b1b0110d12a55f0604bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=2c8fdf4d-b28e-483d-9b76-af17fceb828d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>job_type</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Job Type</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ATAT Gather Acquisition Package Data">64b382cd875701108ea6cbb9cebb351b</model>
+        <model_id>64b382cd875701108ea6cbb9cebb351b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <next_element/>
+        <order>10</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>43c216191b1b0110d12a55f0604bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=7d7d1223-f02c-43f2-a438-447fc39277da,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="ATAT Gather Acquisition Package Data">64b382cd875701108ea6cbb9cebb351b</model>
+        <model_id>64b382cd875701108ea6cbb9cebb351b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>4bc216191b1b0110d12a55f0604bcb92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1162,7 +2188,30 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b^sys_idNOT IN532c528187d701108ea6cbb9cebb3556,532c528187d701108ea6cbb9cebb355c,9f2c528187d701108ea6cbb9cebb3549,9f2c528187d701108ea6cbb9cebb354f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b^sys_idNOT IN0fc216191b1b0110d12a55f0604bcbcb,532c528187d701108ea6cbb9cebb3556,532c528187d701108ea6cbb9cebb355c,87c216191b1b0110d12a55f0604bcb91,8fc216191b1b0110d12a55f0604bcb9a,8fc216191b1b0110d12a55f0604bcba0,8fc216191b1b0110d12a55f0604bcba6,8fc216191b1b0110d12a55f0604bcbac,9f2c528187d701108ea6cbb9cebb3549,9f2c528187d701108ea6cbb9cebb354f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>job_type</element>
+        <help/>
+        <hint/>
+        <label>Job Type</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>0fc216191b1b0110d12a55f0604bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>payload</element>
         <help/>
@@ -1206,6 +2255,121 @@
         <sys_update_name/>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
         <sys_updated_on>2022-05-04 23:03:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:54</sys_created_on>
+        <sys_id>87c216191b1b0110d12a55f0604bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>8fc216191b1b0110d12a55f0604bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>acq_number</element>
+        <help/>
+        <hint/>
+        <label>Acq Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>8fc216191b1b0110d12a55f0604bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>acq_status</element>
+        <help/>
+        <hint/>
+        <label>Acq Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>8fc216191b1b0110d12a55f0604bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>job_status</element>
+        <help/>
+        <hint/>
+        <label>Job Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_64b382cd875701108ea6cbb9cebb351b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
+        <sys_created_on>2022-05-05 17:00:55</sys_created_on>
+        <sys_id>8fc216191b1b0110d12a55f0604bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
+        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
