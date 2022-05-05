@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64b382cd875701108ea6cbb9cebb351b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>ATAT Gather Acquisition Package Data</sys_name>
         <sys_overrides/>
         <sys_package display_value="ATAT" source="x_g_dis_atat">f600233d1b154d507b782f84604bcb12</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_64b382cd875701108ea6cbb9cebb351b</sys_update_name>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
+        <sys_updated_on>2022-05-05 20:29:59</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -50,10 +50,10 @@
         <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
         <sys_created_on>2022-05-05 17:00:55</sys_created_on>
         <sys_id>53c216191b1b0110d12a55f0604bcbd2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-05 17:00:55</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD0fc21619411b0110fa324135d7f39383":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0fc21619411b0110fa324135d7f39383.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":null,\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"629d884e-8616-46e7-bc03-cd41cb80e983\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0fc21619411b0110fa324135d7f39383\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"5\",\"max_length\":\"-1\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-05-05 20:29:59</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD0fc21619411b0110fa324135d7f39383":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0fc21619411b0110fa324135d7f39383.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"629d884e-8616-46e7-bc03-cd41cb80e983\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0fc21619411b0110fa324135d7f39383\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"5\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">0bc216191b1b0110d12a55f0604bcb8c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -209,10 +209,10 @@
         <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
         <sys_created_on>2022-05-04 23:03:23</sys_created_on>
         <sys_id>472c128187d701108ea6cbb9cebb35fa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="ATAT">f600233d1b154d507b782f84604bcb12</sys_scope>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <sys_updated_on>2022-05-05 20:29:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=472c128187d701108ea6cbb9cebb35fa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -223,9 +223,9 @@
         <sys_created_by>julius.fitzhugh-ctr</sys_created_by>
         <sys_created_on>2022-05-04 23:03:23</sys_created_on>
         <sys_id>532c528187d701108ea6cbb9cebb353d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>julius.fitzhugh-ctr</sys_updated_by>
-        <sys_updated_on>2022-05-05 17:00:54</sys_updated_on>
+        <sys_updated_on>2022-05-05 20:29:59</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   // dot walk from the given package to get values
   var package = inputs.package;
@@ -240,10 +240,6 @@
   var dbView = new GlideRecord('x_g_dis_atat_acquisition_package_provisioning_jobs')
   dbView.query('acqpkg_sys_id', package.sys_id)
   dbView.next()
-  gs.info('Acq. Number: ' + dbView.acqpkg_number)
-  gs.info('Acq. Status: ' + dbView.acqpkg_status)
-  gs.info('ProvisiongJob Status: ' + dbView.projob_status)
-  gs.info('ProvisiongJob Type: ' + dbView.projob_job_type)
   
   outputs.acq_number = dbView.acqpkg_number.toString()
   outputs.acq_status = dbView.acqpkg_status.getDisplayValue().toString()
